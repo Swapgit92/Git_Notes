@@ -59,6 +59,7 @@ Creating remote repository in github
 	    $ git add Login.java or git add .
 
 	    $ git commit Login.java -m "login module code"
+7. Create a remote branch witn name PIE
 		
 	    $ git push
 	     UN and pwd(token)
