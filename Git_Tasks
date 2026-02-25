@@ -1,0 +1,118 @@
+Practical Tasks (Hands-On)
+Task 1: Repository Setup
+
+Create a new folder named student-project.
+
+Initialize it as a Git repository.
+
+Create a file README.md.
+
+Add and commit the file.
+
+Create a repository on GitHub.
+
+Connect your local repository to the remote repository.
+
+Push the code to GitHub.
+======================================================================================================
+
+Task 2: Branching Practice
+
+Create a branch named about-page.
+
+Switch to the about-page branch.
+
+Add a file called about.html.
+
+Add and commit your changes.
+
+Switch back to main.
+
+Merge about-page into main.
+
+Delete the about-page branch locally.
+===========================================================================================================
+
+Task 3: Using git fetch
+
+Work in pairs.
+
+Student A:
+
+Make changes to README.md.
+
+Commit and push to GitHub.
+
+Student B:
+
+Run git fetch.
+
+Check what branches or commits were updated.
+
+Compare local main with origin/main.
+
+Merge the fetched changes manually.
+
+==================================================================================================================
+
+ Task 4: Conflict Resolution
+
+Create a branch named update-readme.
+
+Modify README.md in both main and update-readme.
+
+Commit changes in both branches.
+
+Attempt to merge update-readme into main.
+
+Identify the conflict markers.
+
+Resolve the conflict.
+
+Add and commit the resolved file.
+=======================================================================================================================
+ Task 5: Using git reset (Soft & Hard Reset)
+Part A – Soft Reset
+
+Create a new file notes.txt.
+
+Add and commit the file.
+
+Make another commit (edit the file).
+
+Use git reset --soft HEAD~1.
+
+Check the status.
+
+Explain what happened.
+
+Part B – Mixed Reset (Default)
+
+Recommit the changes.
+
+Use git reset HEAD~1.
+
+Check git status.
+
+Explain what happened.
+
+Part C – Hard Reset (Advanced – Be Careful ⚠️)
+
+Make another commit.
+
+Use git reset --hard HEAD~1.
+
+Check the log and status.
+===================================================================================================================
+
+Task 6: Reset to Remote State
+
+Make local changes without committing.
+
+Run git fetch.
+
+Reset your local branch to match remote using:
+
+git reset --hard origin/main
+
+Confirm your working directory matches the remote version.
